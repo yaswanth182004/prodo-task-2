@@ -1,0 +1,62 @@
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #2b3262; /* Green background color */
+    background-image: linear-gradient(135deg, #a0feec 0%, #2e7d32 100%); /* Gradient background */
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 20px;
+    transform: perspective(100px) rotateX(20deg); /* 3D effect */
+}
+
+.heading h1 {
+    font-size: 3rem;
+    color: rgb(43, 198, 206);
+    text-shadow: 4px 2px 4px rgba(0, 0, 0, 0.878); /* Text shadow */
+}
+
+.stopwatch {
+    text-align: center;
+    background-color: rgb(149, 185, 190);
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(255, 196, 3, 0.925);
+}
+
+/* Rest of your existing CSS styles */
+
+
+.display {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.controls {
+    margin-bottom: 20px;
+}
+
+button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    color: rgb(64, 54, 68);
+}
+
+.laps {
+    list-style-type: none;
+    padding: 10;
+    margin: 0;
+    text-align: left;
+    max-height: 100px;
+    overflow-y: auto;
+    border: 5px solid #e6dc12cc;
+    border-radius: 5px;
+    padding: 10px;
+}
